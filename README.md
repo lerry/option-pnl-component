@@ -2,7 +2,7 @@
 
 ### 在线预览
 
-[https://option-pnl-chart.vercel.app/](https://option-pnl-chart.vercel.app/)
+[https://option-pnl-component.vercel.app/](https://option-pnl-component.vercel.app/)
 
 ### OptionPNLChart 期权损益图表组件
 
