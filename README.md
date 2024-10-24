@@ -1,23 +1,12 @@
-# Vite & NextUI Template
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
 ## 组件说明
+
+### 在线预览
+
+[期权损益图表组件](https://option-pnl-chart.vercel.app/)
 
 ### OptionPNLChart 期权损益图表组件
 
+Recharts 是基于 D3 的 React 图表库，用于绘制区域图表。
 这是一个用于展示期权损益的交互式图表组件，使用 React 和 Recharts 库实现。
 
 #### 主要特性
@@ -72,3 +61,17 @@ npm run dev
 - 有些样式细节和文本，未严格遵循示例
 - 没有测试更多期权，不限于call和put，更多的价格范围
 - 鼠标移动较快时，参考线没有及时更新
+
+### Install dependencies
+
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
