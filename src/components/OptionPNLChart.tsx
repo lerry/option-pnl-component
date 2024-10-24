@@ -170,7 +170,15 @@ const OptionPNLChart: React.FC<OptionPNLChartProps> = ({
           />
         );
       }
-      return null;
+      return (
+        <circle
+          cx={cx}
+          cy={cy}
+          r={0}
+          fill="none"
+          key={`empty-dot-${payload.price}`}
+        />
+      );
     },
     [lastValidHoverData.price, currentPrice, maxPnl]
   );
