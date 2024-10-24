@@ -4,6 +4,14 @@
 
 [https://option-pnl-component.vercel.app/](https://option-pnl-component.vercel.app/)
 
+### 可以改进的点
+
+- 样式细节和文本，未严格遵循示例
+- 目前的组件宽高是固定的，没有根据父级容器的大小进行调整
+- 有些样式相关的 magic number 需要优化
+- 没有测试更多期权，不限于call和put，更多的价格范围
+- 鼠标移动较快时，参考线没有及时更新
+
 ### OptionPNLChart 期权损益图表组件
 
 Recharts 是基于 D3 的 React 图表库，用于绘制区域图表。
@@ -53,14 +61,6 @@ Recharts 是基于 D3 的 React 图表库，用于绘制区域图表。
   priceRange={[80, 120]}  // 价格显示范围
 />
 ```
-
-#### 可以改进的点
-
-- 目前的组件宽高是固定的，没有根据父级容器的大小进行调整
-- 有些样式相关的 magic number 需要优化
-- 有些样式细节和文本，未严格遵循示例
-- 没有测试更多期权，不限于call和put，更多的价格范围
-- 鼠标移动较快时，参考线没有及时更新
 
 ### Install dependencies
 
