@@ -2,7 +2,7 @@
 
 ### 在线预览
 
-[期权损益图表组件](https://option-pnl-chart.vercel.app/)
+[https://option-pnl-chart.vercel.app/](https://option-pnl-chart.vercel.app/)
 
 ### OptionPNLChart 期权损益图表组件
 
